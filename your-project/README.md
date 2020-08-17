@@ -48,5 +48,5 @@ What does your repository look like? Explain your folder and file structure.
 Include relevant links (that point to google drive or data sources) to your repository, slides, data, database, ERD, and kanban board. Feel free to include any other links associated with your project.
 
 [Repository](https://github.com/cmerticaru/Project_2_Amsterdam_dataptams2020/tree/master/your-project)  
-[Slides](https://slides.com/)  
+[Slides](https://drive.google.com/file/d/17TJerHREztQk5UFQBeXqxkrrs8Z2myOE/view?usp=sharing)  
 [Trello](https://trello.com/b/KRSizSyD/amsterdam-project)  
