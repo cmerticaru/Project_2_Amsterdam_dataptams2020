@@ -34,32 +34,6 @@ CREATE TABLE Felonies (
     idHouseholds int NOT NULL UNIQUE,
     PRIMARY KEY (idFelonies)
 );
-ALTER TABLE Population
-    ADD FOREIGN KEY
-    (idHouseholds)
-    REFERENCES Households (idHouseholds),
-ADD FOREIGN KEY
-(idFelonies)
-REFERENCES Felonies (idFelonies);
-
-ALTER TABLE Households
-    ADD FOREIGN KEY
-    (idPopulation)
-    REFERENCES Population (idPopulation),
-ADD FOREIGN KEY
-(idFelonies)
-REFERENCES Felonies (idFelonies);
-
-ALTER TABLE Felonies
-    ADD FOREIGN KEY
-    (idPopulation)
-    REFERENCES Population (idPopulation),
-ADD FOREIGN KEY
-    (idHouseholds)
-    REFERENCES Households (idHouseholds)
-
-
-
 
 
 
